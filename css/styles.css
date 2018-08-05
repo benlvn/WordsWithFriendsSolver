@@ -1,0 +1,56 @@
+body {
+	background-color: #FFFFAD;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#gameboard {
+	margin: 10px;
+	background-image: url("../game_board.png"); 
+	padding: 0px;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	/*border: 1px solid green;*/
+	width: 550px;
+	height: 550px;
+}
+
+#tile-rack {
+	margin: 10px;
+	padding: 0px;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	border: 1px solid green;
+	height: 50px;
+	width: 350px
+}
+
+.rack-space {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.key-tile {
+	display: inline-block;
+	background-size: 40px 40px;
+	position: relative;
+	height: 40px;
+	width: 40px;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+}
+
+#keyboard {
+	margin: 10px;
+	width: 500px;
+}

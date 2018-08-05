@@ -2,7 +2,7 @@
 
 <head>
 	<title>Words With Friends Solver</title>
-	<link rel="stylesheet" href="css/styles.css"
+	<link rel="stylesheet" href="static/solver/css/styles.css"/>
 </head>
 
 <body>
@@ -259,6 +259,8 @@
 		<div class="rack-space" draggable="false"></div>
 	</div>
 
+	<button onclick="solve()">Get Best words</button>
+
 	<div id="keyboard">
 		<div class="key-tile" id="A" draggable="true"></div>
 		<div class="key-tile" id="B" draggable="true"></div>
@@ -288,5 +290,6 @@
 		<div class="key-tile" id="Z" draggable="true"></div>
 	</div>
 
-	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="static/solver/js/main.js"></script>
 </body>
